@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+      .container {
+        background: rgba(255, 255, 255, 0.15);
+        padding: 40px;
+        border-radius: 12px;
+        text-align: center;
+        width: 350px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+      }
+      h1 {
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 15px;
+        margin-bottom: 25px;
+      }
+      a {
+        display: block;
+        margin: 10px 0;
+        padding: 12px;
+        border-radius: 8px;
+        text-decoration: none;
+        background: white;
+        color: #764ba2;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+      a:hover {
+        background: #f0f0f0;
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome Home 🏠</h1>
+      <p>This is a public home page</p>
+      <a href="/admin/home">Admin Dashboard</a>
+      <a href="/user/home">User Dashboard</a>
+    </div>
+  </body>
+</html>
